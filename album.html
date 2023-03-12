@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Start</title>
+
+    <style>
+        #Album {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .album {
+            border: 2px solid rgba(220, 20, 60, 0.744);
+            background-color: rgb(244, 215, 205);
+            padding: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Show Your Album </h1>
+    <div id="Album">
+
+    </div>
+    <button onclick="loadAlbum()">Load Album</button>
+    <script src="js/album.js"></script>
+
+</body>
+
+</html>
